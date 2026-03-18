@@ -2,13 +2,24 @@
 .container {
   max-width: 600px;
   margin: 0 auto;
-  padding: 16px 16px 16px;
+  padding-top: 32px;
   border-left: 1px solid var(--accent);
   border-right: 1px solid var(--accent);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContent {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 /* Header */
 .header {
+  padding: 48px 16px 0;
   display: flex;
   justify-content: center;
 }
@@ -17,7 +28,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
   width: 100%;
 }
 
@@ -49,7 +59,6 @@
 
 .linkedinBtn:hover {
   background-color: #fff;
-  color: var(--accent);
 }
 
 .icon {
@@ -60,32 +69,32 @@
 
 /* Intro */
 .intro {
-  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .greeting {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: -0.6px;
-  margin-bottom: 16px;
 }
 
 .bio {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.16px;
-  margin-bottom: 8px;
-}
-
-.bio:last-of-type {
-  margin-bottom: 0;
 }
 
 /* Divisor */
 .divider {
   height: 1px;
   background-color: var(--accent);
-  margin: 32px -16px;
+  width: auto;
+}
+
+.mainContent .divider {
+  margin: 0 -16px;
 }
 
 /* Seção de projetos */
@@ -106,16 +115,12 @@
   border: 1px solid var(--accent);
   border-radius: 4px;
   overflow: hidden;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .projectCard:hover {
   transform: translateY(-2px);
   background-color: #fff;
-}
-
-.projectCard:hover .projectTitle {
-  color: var(--accent);
 }
 
 .projectImage {
@@ -129,18 +134,18 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
 }
 
 .projectInfo {
   padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .projectCompany {
-  display: block;
   font-size: 14px;
   opacity: 0.6;
-  margin-bottom: 4px;
   letter-spacing: -0.14px;
 }
 
@@ -175,7 +180,6 @@
 .contactButtons {
   display: flex;
   gap: 16px;
-  margin-top: 8px;
 }
 
 .btn {
@@ -194,28 +198,23 @@
 
 .btn:hover {
   background-color: #fff;
-  color: var(--accent);
 }
 
 /* Footer */
 .footer {
+  padding: 16px;
   text-align: center;
-  margin-top: 32px;
+  margin-top: auto;
 }
 
-.footer p {
+.footerText {
   font-size: 12px;
-  line-height: 16px;
   letter-spacing: -0.12px;
   opacity: 0.8;
 }
 
 /* Responsivo */
 @media (max-width: 640px) {
-  .container {
-    padding: 32px 16px 16px;
-  }
-
   .contactButtons {
     flex-direction: column;
   }
