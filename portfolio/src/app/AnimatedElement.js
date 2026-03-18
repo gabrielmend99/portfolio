@@ -28,8 +28,7 @@ export default function AnimatedElement({ children, delay = 0 }) {
       variants={variants}
       initial="hidden"
       whileInView="visible"
-      exit="exit"
-      viewport={{ once: true, amount: 0.1, margin: "-20px" }}
+      viewport={{ once: true, amount: "some", margin: "50px" }}
       transition={{ delay }}
       style={{ width: '100%' }}
     >
