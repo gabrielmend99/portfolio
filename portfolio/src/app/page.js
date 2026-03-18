@@ -27,7 +27,7 @@ export default function Home() {
               <img src="/assets/profile.png" alt="Gabriel" id="profile-img" />
             </div>
             <a
-              href="https://linkedin.com/in/gabrielhenrique"
+              href="https://www.linkedin.com/in/gabrielghm99/"
               target="_blank"
               className={styles.linkedinBtn}
               aria-label="LinkedIn"
@@ -103,7 +103,7 @@ export default function Home() {
 
           <div className={styles.contactButtons}>
             <AnimatedElement delay={0.2}>
-              <a href="https://linkedin.com/in/gabrielhenrique" target="_blank" className={styles.btn}>
+              <a href="https://www.linkedin.com/in/gabrielghm99/" target="_blank" className={styles.btn}>
                 Veja meu LinkedIn
               </a>
             </AnimatedElement>
