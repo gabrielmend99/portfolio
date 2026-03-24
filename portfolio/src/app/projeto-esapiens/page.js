@@ -210,11 +210,10 @@ export default function ProjetoEsapiens() {
           </AnimatedElement>
           <AnimatedElement delay={0.15}>
             <p className={styles.textContent}>
-              Trabalhar no Buupe tem sido uma jornada de constantes aprendizados e desafios únicos. Cada feature desenvolvida — seja a descoberta de creators, os depoimentos ou as lives — nasceu de uma pergunta simples: "como podemos facilitar a conexão humana nesse ecosistema?".
+              Pensar em experiências que satisfaçam tanto criadores quanto fãs é um grande desafio, mas ver os resultados que elas geram é gratificante.
               <br /><br />
-              O sucesso medido em números (como os +104% de receita e +128% de engajamento) é resultado de uma cultura de experimentação e colaboração, ondedesign, produto e engenharia caminhando juntos para transformar a visão em realidade.
-              <br /><br />
-              O mais gratificante é ver que, por trás de cada métrica, existem histórias reais de creators que conquistaram independência financeira e fãs que encontraram uma forma autêntica de se conectar com quem admiram. É isso que me motiva a continuar desenhando soluções que fazem sentido tanto para o negócio quanto para as pessoas.
+              No fim das contas, por trás de cada métrica, existem histórias reais de creators que conquistaram independência financeira e fãs que encontraram uma forma autêntica de se conectar com quem admiram.
+              <br /><br/>
             </p>
           </AnimatedElement>
         </section>
@@ -223,10 +222,11 @@ export default function ProjetoEsapiens() {
       <AnimatedElement delay={0.05}>
         <div className={styles.divider}></div>
       </AnimatedElement>
-
+      
+      {/* Footer */}
       <footer className={styles.footer}>
         <AnimatedElement delay={0.1}>
-          <p className={styles.footerText}>Feito rapidinho mas com carinho por eu mesmo 🙃</p>
+          <p className={styles.footerText}>Feito com carinho por eu mesmo 🙃</p>
         </AnimatedElement>
       </footer>
     </div>

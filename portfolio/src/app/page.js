@@ -95,7 +95,7 @@ export default function Home() {
                 gabrielhenrique.pessoal@gmail.com
               </a>{' '}
               ou me chamar no WhatsApp{' '}
-              <a href="https://wa.me/5519971408063" className={styles.contactLink}>
+              <a href="https://wa.me/5519971408063" target="_blank" className={styles.contactLink}>
                 (19) 97140-8063
               </a>
             </p>
@@ -108,7 +108,7 @@ export default function Home() {
               </a>
             </AnimatedElement>
             <AnimatedElement delay={0.25}>
-              <a href="/assets/cv.pdf" download className={styles.btn}>
+              <a href="portfolio/public/assets/CV_Gabriel_Mendonca-Product_Designer.pdf" target="_blank" download className={styles.btn}>
                 Baixe meu currículo
               </a>
             </AnimatedElement>
@@ -123,7 +123,7 @@ export default function Home() {
       {/* Footer */}
       <footer className={styles.footer}>
         <AnimatedElement delay={0.1}>
-          <p className={styles.footerText}>Feito rapidinho mas com carinho por eu mesmo 🙃</p>
+          <p className={styles.footerText}>Feito com carinho por eu mesmo 🙃</p>
         </AnimatedElement>
       </footer>
     </div>

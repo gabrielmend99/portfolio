@@ -186,7 +186,7 @@
 
 .imageCard {
   background-color: white;
-  border-radius: 12px;
+  border-radius: 4px;
   overflow: hidden;
   position: relative;
   box-shadow: 0 16px 48px -4px rgba(91, 66, 51, 0.16);
@@ -194,7 +194,7 @@
 
 .imageCardLarge {
   background-color: white;
-  border-radius: 16px;
+  border-radius: 4px;
   overflow: hidden;
   position: relative;
   box-shadow: 0 16px 48px -4px rgba(91, 66, 51, 0.16);
