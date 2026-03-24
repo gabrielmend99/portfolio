@@ -108,7 +108,7 @@ export default function Home() {
               </a>
             </AnimatedElement>
             <AnimatedElement delay={0.25}>
-              <a href="portfolio/public/assets/CV_Gabriel_Mendonca-Product_Designer.pdf" target="_blank" download className={styles.btn}>
+              <a href="/assets/CV_Gabriel_Mendonca-Product_Designer.pdf" target="_blank" download className={styles.btn}>
                 Baixe meu currículo
               </a>
             </AnimatedElement>
